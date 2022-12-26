@@ -1,0 +1,442 @@
+dashboard_title: Fraud Transactions Analysis
+description: null
+css: ''
+slug: null
+uuid: 82dd3e05-c9b8-4556-835d-86a3ac4f6965
+position:
+  CHART-explore-10-1:
+    children: []
+    id: CHART-explore-10-1
+    meta:
+      chartId: 10
+      height: 36
+      sliceName: Fraud vs Non-Fraud
+      uuid: 69dd60e8-78e6-4903-a9ed-72d7e1817ea8
+      width: 2
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-okcQiLcUm
+    type: CHART
+  CHART-explore-11-1:
+    children: []
+    id: CHART-explore-11-1
+    meta:
+      chartId: 11
+      height: 36
+      sliceName: Total Amount Transacted
+      uuid: b14fd211-a3a7-424d-8d09-0466895438cd
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-okcQiLcUm
+    type: CHART
+  CHART-explore-12-1:
+    children: []
+    id: CHART-explore-12-1
+    meta:
+      chartId: 12
+      height: 39
+      sliceName: Fraud vs Non-Fraud Transaction Amount Till Date
+      uuid: f8d89be6-52c1-4cb1-bfaa-af27d749306c
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-QjCECO3iLB
+    type: CHART
+  CHART-explore-13-1:
+    children: []
+    id: CHART-explore-13-1
+    meta:
+      chartId: 13
+      height: 34
+      sliceName: Heat Map of Frauds in Previous Year
+      uuid: a46944a1-e8cd-4eb5-b733-64464f064269
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-BBx0dmFJRa
+    type: CHART
+  CHART-explore-14-1:
+    children: []
+    id: CHART-explore-14-1
+    meta:
+      chartId: 14
+      height: 39
+      sliceName: Total Fraud Transaction Amount Each Day
+      uuid: 508d4528-610f-4e66-ad26-2634bf8fe3e7
+      width: 8
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-QjCECO3iLB
+    type: CHART
+  CHART-explore-15-1:
+    children: []
+    id: CHART-explore-15-1
+    meta:
+      chartId: 15
+      height: 34
+      sliceName: Heat Map of Fraud Transaction Amount in Previous Year
+      uuid: d6932f86-3961-45a3-bcec-a2217e71a668
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-nk6CKB8fm0
+    type: CHART
+  CHART-explore-16-1:
+    children: []
+    id: CHART-explore-16-1
+    meta:
+      chartId: 16
+      height: 50
+      sliceName: Fraud Transactions for Various Cards
+      uuid: 702e661d-192e-4728-bf81-1c5196498cb8
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-MrMeGiGe9
+    type: CHART
+  CHART-explore-17-1:
+    children: []
+    id: CHART-explore-17-1
+    meta:
+      chartId: 17
+      height: 50
+      sliceName: Fraud Transactions for Debit vs Credit cards
+      uuid: 32240124-ce2a-4c2e-a66a-38331c1de82f
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-MrMeGiGe9
+    type: CHART
+  CHART-explore-18-1:
+    children: []
+    id: CHART-explore-18-1
+    meta:
+      chartId: 18
+      height: 50
+      sliceName: Fraud Transactions for Purchaser Email Domains
+      uuid: 1aa34a15-1d3d-4b23-90d2-6a29181e3824
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-mikPcHqkR8
+    type: CHART
+  CHART-explore-19-1:
+    children: []
+    id: CHART-explore-19-1
+    meta:
+      chartId: 19
+      height: 50
+      sliceName: Fraud Transactions for Recipient Email Domains
+      uuid: e02c9204-53d3-4f50-9d36-e09b175f73f3
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-mikPcHqkR8
+    type: CHART
+  CHART-explore-20-1:
+    children: []
+    id: CHART-explore-20-1
+    meta:
+      chartId: 20
+      height: 50
+      sliceName: Fraud Transactions for Device Type
+      uuid: f20409bd-2510-421e-be8f-ace06bdb5cac
+      width: 2
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-MrMeGiGe9
+    type: CHART
+  CHART-explore-21-1:
+    children: []
+    id: CHART-explore-21-1
+    meta:
+      chartId: 21
+      height: 50
+      sliceName: Fraud Transactions for Browsers
+      uuid: b5e4f4f4-390e-4d72-85aa-22af7c279b90
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-vvTQzAQRuN
+    type: CHART
+  CHART-explore-22-1:
+    children: []
+    id: CHART-explore-22-1
+    meta:
+      chartId: 22
+      height: 50
+      sliceName: Fraud Transactions for Operating Systems
+      uuid: e9ae822b-c2af-4015-b5d0-7373008f8bc2
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-vvTQzAQRuN
+    type: CHART
+  CHART-explore-23-1:
+    children: []
+    id: CHART-explore-23-1
+    meta:
+      chartId: 23
+      height: 50
+      sliceName: Fraud Transactions for various IP Proxies
+      uuid: 0d10090f-ce33-49e6-b8f2-a20a4aac5366
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-MrMeGiGe9
+    type: CHART
+  CHART-explore-24-1:
+    children: []
+    id: CHART-explore-24-1
+    meta:
+      chartId: 24
+      height: 50
+      sliceName: Fraud Transactions for Screen Resolution
+      uuid: f4143be7-ccbe-45ff-bac7-994676b173c5
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-4En5SREB5j
+    type: CHART
+  CHART-explore-4-1:
+    children: []
+    id: CHART-explore-4-1
+    meta:
+      chartId: 4
+      height: 50
+      sliceName: Daily Frauds Till Date
+      uuid: 8a26d907-9bbb-4647-a66d-2bd5d7a4fc7b
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-frJKrkUiW
+    type: CHART
+  CHART-explore-7-1:
+    children: []
+    id: CHART-explore-7-1
+    meta:
+      chartId: 7
+      height: 36
+      sliceName: Percentage of Fraud Transactions
+      uuid: 48dee3b1-2ef0-41f5-98ac-372796e7ea70
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-okcQiLcUm
+    type: CHART
+  CHART-explore-8-1:
+    children: []
+    id: CHART-explore-8-1
+    meta:
+      chartId: 8
+      height: 36
+      sliceName: Total Frauds Till Date
+      uuid: e5f2ea7f-fed2-484d-960b-28911231769c
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-okcQiLcUm
+    type: CHART
+  CHART-explore-9-1:
+    children: []
+    id: CHART-explore-9-1
+    meta:
+      chartId: 9
+      height: 50
+      sliceName: Frauds Every Minute
+      uuid: 139fd545-2609-46b9-a209-4122abeefbf4
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-PzlJoYeqo
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-okcQiLcUm
+    - ROW-BBx0dmFJRa
+    - ROW-frJKrkUiW
+    - ROW-QjCECO3iLB
+    - ROW-nk6CKB8fm0
+    - ROW-PzlJoYeqo
+    - ROW-MrMeGiGe9
+    - ROW-mikPcHqkR8
+    - ROW-vvTQzAQRuN
+    - ROW-4En5SREB5j
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Fraud Transactions Analysis
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-4En5SREB5j:
+    children:
+    - CHART-explore-24-1
+    id: ROW-4En5SREB5j
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-BBx0dmFJRa:
+    children:
+    - CHART-explore-13-1
+    id: ROW-BBx0dmFJRa
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-MrMeGiGe9:
+    children:
+    - CHART-explore-16-1
+    - CHART-explore-17-1
+    - CHART-explore-20-1
+    - CHART-explore-23-1
+    id: ROW-MrMeGiGe9
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-PzlJoYeqo:
+    children:
+    - CHART-explore-9-1
+    id: ROW-PzlJoYeqo
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-QjCECO3iLB:
+    children:
+    - CHART-explore-14-1
+    - CHART-explore-12-1
+    id: ROW-QjCECO3iLB
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-frJKrkUiW:
+    children:
+    - CHART-explore-4-1
+    id: ROW-frJKrkUiW
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-mikPcHqkR8:
+    children:
+    - CHART-explore-18-1
+    - CHART-explore-19-1
+    id: ROW-mikPcHqkR8
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-nk6CKB8fm0:
+    children:
+    - CHART-explore-15-1
+    id: ROW-nk6CKB8fm0
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-okcQiLcUm:
+    children:
+    - CHART-explore-8-1
+    - CHART-explore-10-1
+    - CHART-explore-11-1
+    - CHART-explore-7-1
+    id: ROW-okcQiLcUm
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-vvTQzAQRuN:
+    children:
+    - CHART-explore-22-1
+    - CHART-explore-21-1
+    id: ROW-vvTQzAQRuN
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  show_native_filters: true
+  color_scheme: googleCategory10c
+  refresh_frequency: 0
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  default_filters: '{}'
+  chart_configuration: {}
+  stagger_refresh: true
+  shared_label_colors:
+    COUNT(prediction): '#3366cc'
+    COUNT(TransactionTime): '#3366cc'
+    SUM(TransactionAmt): '#3366cc'
+    '0.0': '#3366cc'
+    '1.0': '#dc3912'
+  color_scheme_domain:
+  - '#3366cc'
+  - '#dc3912'
+  - '#ff9900'
+  - '#109618'
+  - '#990099'
+  - '#0099c6'
+  - '#dd4477'
+  - '#66aa00'
+  - '#b82e2e'
+  - '#316395'
+version: 1.0.0

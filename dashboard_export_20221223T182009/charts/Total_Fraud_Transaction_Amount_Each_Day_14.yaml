@@ -1,0 +1,84 @@
+slice_name: Total Fraud Transaction Amount Each Day
+viz_type: echarts_timeseries_smooth
+params:
+  datasource: 9__table
+  viz_type: echarts_timeseries_smooth
+  granularity_sqla: TransactionTime
+  time_grain_sqla: P1D
+  time_range: No filter
+  metrics:
+  - expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: TransactionAmt
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 3050
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    aggregate: SUM
+    sqlExpression: null
+    isNew: false
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: SUM(TransactionAmt)
+    optionName: metric_uxebpv00v2q_e9e7dwcv2mg
+  groupby: []
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: prediction
+    operator: ==
+    operatorId: EQUALS
+    comparator: '1'
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_7c5ygbbs8qu_hm2zbonw8wt
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastEnabled: false
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title: Date
+  x_axis_title_margin: 30
+  y_axis_title: Total Fraud Transaction Amount
+  y_axis_title_margin: 50
+  y_axis_title_position: Left
+  color_scheme: supersetColors
+  show_value: false
+  only_total: true
+  markerEnabled: true
+  markerSize: 4
+  show_legend: false
+  legendType: scroll
+  legendOrientation: top
+  legendMargin: null
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  y_axis_format: SMART_NUMBER
+  y_axis_bounds:
+  - null
+  - null
+  extra_form_data: {}
+  dashboards:
+  - 3
+cache_timeout: null
+uuid: 508d4528-610f-4e66-ad26-2634bf8fe3e7
+version: 1.0.0
+dataset_uuid: bb97ded4-ffa7-4de9-8306-6e7575abbe4c

@@ -1,0 +1,13 @@
+database_name: MySQL
+sqlalchemy_uri: mysql+mysqldb://root:XXXXXXXXXX@10.108.23.207:3306/my_database
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: true
+allow_cvas: true
+allow_file_upload: true
+extra:
+  allows_virtual_table_explore: true
+  cost_estimate_enabled: true
+uuid: 8ba0bf02-23ed-4b67-9d67-c39b09f21fe9
+version: 1.0.0
